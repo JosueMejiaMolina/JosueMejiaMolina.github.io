@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 60%;
+    margin-bottom: 50px;
+}
+
+td, th {
+  border: 2px solid #999999;
+  text-align: left;
+  padding: 16px;
+}
+td img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+tr:nth-child(odd) {
+  background-color: #eeeeee;
+}
+</style>
+</head>
+<body>
+
+<h2>Tablas de formulas de capacitores e inductores</h2>
+
+<table>
+     <H3>Ecuaciones de equivalencia en serie y paralelo para capacitores e inductores</h3>
+  <tr>
+    <th>Elemento</th>
+    <th colspan="2">En serie</th>
+    <th colspan="2">En paralelo</th>
+  </tr>
+    <tr>
+    <td>Inductores</td>
+    <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYVDHihZth4YtngnCiOBWkrpQz8y99fAMEfzzKCtyhk-ahrOPC" height="75px" width="190px"></td>
+        <td><img src="https://raw.githubusercontent.com/JosueMejiaMolina/JosueMejiaMolina.github.io/master/Ecuaciones_files/image022.png"></td>
+    <td><img src="data:image/png;base64,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" height="75" width="190"></td>
+    <td><img src="https://raw.githubusercontent.com/JosueMejiaMolina/JosueMejiaMolina.github.io/master/Ecuaciones_files/image023.png"></td>
+  </tr>
+    <tr>
+    <td>Capacitores</td>
+    <td><img src="https://www.fisicapractica.com/imagenes/electricidad/capacitores-serie-1.png" height="75px" width="190px"></td>
+        <td><img src="https://raw.githubusercontent.com/JosueMejiaMolina/JosueMejiaMolina.github.io/master/Ecuaciones_files/image018.png"></td>
+    <td><img src="data:image/png;base64,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" height="75" width="190"></td>
+    <td><img src="https://raw.githubusercontent.com/JosueMejiaMolina/JosueMejiaMolina.github.io/master/Ecuaciones_files/image020.png"></td>
+  </tr>
+</table>
+
+<table>
+     <h3>Ecuaciones de voltaje, corriente y energia de capacitores e inductores</h3>
+  <tr>
+    <th>Elemento</th>
+    <th>Voltaje</th>
+    <th>Corriente</th>
+    <th>Energia</th>
+  </tr>
+    <tr>
+        <td>Capacitor</td>
+        <td><img src="https://raw.githubusercontent.com/JosueMejiaMolina/JosueMejiaMolina.github.io/master/Ecuaciones_files/VoltajeCapacitor.png"></td>
+        <td><img src="https://raw.githubusercontent.com/JosueMejiaMolina/JosueMejiaMolina.github.io/master/Ecuaciones_files/CorrienteCapacitor.png"></td>
+        <td><img src="https://raw.githubusercontent.com/JosueMejiaMolina/JosueMejiaMolina.github.io/master/Ecuaciones_files/EnergiaCapacitor.png"></td>
+    </tr>
+      <tr>
+        <td>Inductor</td>
+        <td><img src="https://raw.githubusercontent.com/JosueMejiaMolina/JosueMejiaMolina.github.io/master/Ecuaciones_files/Voltajeinductor.png"></td>
+        <td><img src="https://raw.githubusercontent.com/JosueMejiaMolina/JosueMejiaMolina.github.io/master/Ecuaciones_files/CorrienteInductor.png"></td>
+        <td><img src="https://raw.githubusercontent.com/JosueMejiaMolina/JosueMejiaMolina.github.io/master/Ecuaciones_files/EnergiaInductor.png"></td>
+    </tr>
+    </table>
+    
+    <table>
+     <h3>Comportamiento de capacitores e inductores</h3>
+  <tr>
+    <th>Elemento</th>
+    <th>Comportamiento en el circuito</th>
+    <th>Variable que no puede cambiar abruptamente</th>
+    <th>Campo en que almacena la energia</th>
+  </tr>
+    <tr>
+        <td>Capacitor</td>
+        <td>Circuito abierto</td>
+        <td>Voltaje</td>
+        <td>Campo electrico</td>
+    </tr>
+      <tr>
+        <td>Inductor</td>
+        <td>Cortocircuito</td>
+        <td>Corriente</td>
+        <td>Campo Magnetico</td>
+    </tr>
+    </table>
+    
+     <h4>Bibliografía</h4>
+    <ul>
+        <li>Alexander, C. K., &amp; Sadiku, M. N. (2013). Fundamentals of Electric Circuits. (M. Lange, Ed.) New York, New York, USA: McGraw-Hill.</li>
+        <li>McAllister, W. (2016, Abril 11). Capacitor i-v equation in action. Obtenido de Khan Academy: https://www.khanacademy.org/science/electrical-engineering/ee-circuit-analysis-topic/ee-natural-and-forced-response/a/ee-capacitor-equation-in-action</li>
+        <li>McAllister, W. (2016, Abril 17). Inductor i-v equation in action. Obtenido de Khan Academy: https://www.khanacademy.org/science/electrical-engineering/ee-circuit-analysis-topic/ee-natural-and-forced-response/a/wmc-inductor-in-action</li>
+    </ul>
+
+</body>
+</html>
